@@ -60,3 +60,10 @@ export const hobby2 : personaHobby = {
 
 export const hobbyTotali : personaHobby[] = 
 [hobby1,hobby2];
+
+export const profiloCompleto = {
+    person,
+    lingueTotali,
+    hobbyTotali,
+    esperiezeTotali,
+}

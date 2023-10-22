@@ -1,4 +1,3 @@
-import React from 'react';
 import { personaType, livelloLingua, esperienzaPersona, personaHobby } from './ProfiloProps';
 import { person, lingueTotali, esperiezeTotali, hobbyTotali } from './ProfiloData';
 
@@ -8,7 +7,7 @@ function Profilo() {
             <h1>Profilo</h1>
             <p>Nome: {person.nome}</p>
             <p>Cognome: {person.cognome}</p>
-            <img src={person.imgProfilo} alt={`${person.nome} ${person.cognome}`} />
+            <img src={person.imgProfilo} alt={`${person.nome} ${person.cognome}`} width={200} />
             <p>Età: {person.eta}</p>
             <p>Sesso: {person.sesso}</p>
             <p>Residenza: {person.residenza}</p>
