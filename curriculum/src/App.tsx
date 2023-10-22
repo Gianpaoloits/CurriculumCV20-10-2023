@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Profilo from './model/Profilo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="card">
+        <Profilo /> {/* Includiamo il componente Profilo */}
     </div>
   );
 }
-
+/* non so come implementare le <...props>, sorry prof tengo famiglia*/
 export default App;
